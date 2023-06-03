@@ -1,0 +1,38 @@
+v1.0.7
+----------------
+- Solved the issue of admin profile update
+- Solved issue of quantity selection if there is no attribute
+- Added video support in WYSIWYG Editor
+- Added slider loop
+- Fixed design issues
+
+v1.0.6
+----------------
+- Integrated URL support for media
+- Media storage configurable from the setting page
+- Fixed the issue of redirecting after login
+
+v1.0.5
+----------------
+- Fixed the issue of product inventory
+
+v1.0.4
+----------------
+- Flutterwave payment gateway integrated
+
+v1.0.3
+----------------
+- Custom CSS and color configurable from admin panel "UI > Site Setting"
+- Removed manual import of database and make it automated while installing
+
+v1.0.2
+----------------
+- Dynamic currency icon position(Left/Right of price)
+- Metadata, site logos, SMTP, and social login credentials configurable from the admin panel
+
+
+v1.0.1
+----------------
+- Store page integrated
+- Order tracking integrated
+- Store follow/unfollow by user

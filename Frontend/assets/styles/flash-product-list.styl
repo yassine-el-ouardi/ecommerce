@@ -1,0 +1,23 @@
+@import "variables.styl"
+
+.flash-list
+  .tile-container
+    .p-tile
+      width 16.66%
+
+  & > .pos-rel
+    min-height 700px
+
+// RESPONSIVE
+@media only screen and (max-width: 992px)
+  .flash-list
+    .tile-container
+      .p-tile
+        width 33.33%
+
+@media only screen and (max-width: 768px)
+  .flash-list
+      .tile-container
+        .p-tile
+          width 50%
+
