@@ -6,7 +6,7 @@ console.log('apiBase:', apiBase);
 
 export default {
   generate: {
-    dir: './_nuxt'
+    dir: './dist'
   },
   vue: {
     config: {
@@ -19,7 +19,6 @@ export default {
     apiBase: process.env.API_BASE
   },
   css: [
-    '~/assets/styles/styles.styl',
     '@glidejs/glide/dist/css/glide.core.min.css'
   ],
   //Progress bar color
