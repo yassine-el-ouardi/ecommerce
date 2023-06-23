@@ -35,20 +35,20 @@ return [
         ],
 
         // For cpanel
-        'public' => [
+        /* 'public' => [
             'driver' => 'local',
             'root' => storage_path('../uploads/'),
             'url' => env('APP_URL') . '../',
             'visibility' => 'public',
-        ],
+        ],*/
 
         // For artisan / VPS
-        /* 'public' => [
+        'public' => [
             'driver' => 'local',
             'root' => storage_path('../public/uploads/'),
             'url' => env('APP_URL').'../public',
             'visibility' => 'public',
-        ],*/
+        ],
 
         's3' => [
             'driver' => 's3',

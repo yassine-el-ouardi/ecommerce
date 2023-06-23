@@ -20,22 +20,7 @@
             {{ $t('empty.welcome') }} {{ site_setting.site_name }}
           </h4>
           <Nuxt/>
-          <h5 class="bold mtb-15 center-text">
-            {{ $t('empty.or') }}
-          </h5>
-          <div class="flex flex-xs">
 
-            <button
-              aria-label="submit"
-              class="flex flex-1 primary-btn google-btn ml-5"
-              @click.prevent="loginWith('google')"
-            >
-              <i
-                class="icon google-icon mr-5"
-              />
-              {{ $t('empty.loginGoogle') }}
-            </button>
-          </div>
           <p class="mt-20 mt-sm-15 f-9 plr-40">
             {{ $t('empty.agreement') }}
             <nuxt-link

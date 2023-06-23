@@ -5,9 +5,6 @@ apiBase += configJson.api.url
 console.log('apiBase:', apiBase);
 
 export default {
-  generate: {
-    dir: './_nuxt'
-  },
   vue: {
     config: {
       productionTip: false,
